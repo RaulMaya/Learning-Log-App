@@ -15,13 +15,12 @@ class Topic(models.Model):
 class Entry(models.Model):
     '''New information/knowledge about the topic'''
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
-    text = models.TextField
+    text = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        verpose_name_plural = 'entries'
+        verbose_name_plural = 'entries'
 
     def __str__(self):
-        '''Returns a string in representation of a model'''
-        return f"{self.text[:50]}..."
-        
+        "Returns a string in representation of a model"
+        return f'{self.text[:50]}'
