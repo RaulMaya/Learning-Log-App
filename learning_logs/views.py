@@ -1,6 +1,7 @@
 from email import contentmanager
 from multiprocessing import context
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 
 import learning_logs
 
@@ -13,6 +14,7 @@ def index(request):
     """The home page for learning logs"""
     return render(request, 'learning_logs/index.html')
 
+@login_required
 def topics(request):
     """Show all the topics"""
     topics = Topic.objects.order_by('date_added')
