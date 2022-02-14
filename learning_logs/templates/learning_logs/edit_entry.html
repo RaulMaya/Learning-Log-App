@@ -2,19 +2,19 @@
 {% load bootstrap4 %} 
 
 {% block page_header %}
-<p><a href="{% url 'learning_logs:topic' topic.id %}">{{ topic }}</a></p>
-
+<h2><a href="{% url 'learning_logs:topic' topic.id %}">{{ topic }}</a></h2>
 {% endblock page_header %}
 
 {% block content %}
 
+<h5>Edit entry:</h5>
 
-<p>Edit entry:</p>
-
-<form action="{% url 'learning_logs:edit_entry' entry.id %}" method="post">
+<form action="{% url 'learning_logs:edit_entry' entry.id %}" method="post" class="form">
     {% csrf_token %}
-    {{ form.as_p }} 
-    <button name="Save">Add entry</button>
+    {% bootstrap_form form %} 
+    {% buttons %} 
+    <button name="Save" class="btn btn-success">Add entry</button>
+    {% endbuttons %}    
 </form>
 
 {% endblock content %} 
