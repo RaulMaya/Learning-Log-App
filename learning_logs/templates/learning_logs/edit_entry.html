@@ -1,8 +1,13 @@
-{% extends 'learning_logs/base.html' %}
+{% extends "learning_logs/base.html" %}
+{% load bootstrap4 %} 
+
+{% block page_header %}
+<p><a href="{% url 'learning_logs:topic' topic.id %}">{{ topic }}</a></p>
+
+{% endblock page_header %}
 
 {% block content %}
 
-<p><a href="{% url 'learning_logs:topic' topic.id %}">{{ topic }}</a></p>
 
 <p>Edit entry:</p>
 
