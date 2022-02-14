@@ -61,7 +61,10 @@ decorator==4.4.2
 defusedxml==0.6.0
 diff-match-patch @ file:///tmp/build/80754af9/diff-match-patch_1594828741838/work
 distributed @ file:///C:/ci/distributed_1605066635297/work
+dj-database-url==0.5.0
 Django==4.0.1
+django-bootstrap4==21.2
+django-heroku==0.3.1
 docutils==0.16
 entrypoints==0.3
 et-xmlfile==1.0.1
@@ -85,6 +88,7 @@ google-pasta==0.2.0
 googletrans==3.1.0a0
 greenlet @ file:///C:/ci/greenlet_1600885448389/work
 grpcio==1.39.0
+gunicorn==20.1.0
 h11==0.9.0
 h2==3.2.0
 h5py==3.1.0
@@ -286,6 +290,7 @@ wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webdriver-manager==3.4.2
 webencodings==0.5.1
 Werkzeug==1.0.1
+whitenoise==6.0.0
 widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 win-unicode-console==0.5
