@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-import os
 import django_heroku
 
 
@@ -31,9 +30,6 @@ SECRET_KEY = 'django-insecure-&6=wa(m-hmur14q_exy*@#33mc_ul#5sg9c@rr@%=o5e-y^#gx
 DEBUG = False
 
 ALLOWED_HOSTS = []
-
-# My settings
-LOGIN_URL = 'users:login'
 
 
 # Application definition
@@ -67,6 +63,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'learning_log.urls'
+
+# My settings
+LOGIN_URL = 'users:login'
 
 # Heroku Settings
 django_heroku.settings(locals())
@@ -139,10 +138,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
 
-ALLOWED_HOSTS = [
-    '127.0.0.1'
-    'learning-la.herokuapp.com'
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
