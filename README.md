@@ -83,7 +83,6 @@ This app, allows users to log the topics of their concerns, or interests and cre
 |:--:|
 | *Figure 6. Selected topic uploaded* |
 | ![Context for the Y](ReadMe_Images/entry.png)|
-|:--:|
 | *Figure 7. Selected entry uploaded* |
 
 </center>
