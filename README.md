@@ -14,9 +14,8 @@ This app, allows users to log the topics of their concerns, or interests and cre
 
 1. Tools
 2. Walkthrough
-4. Variability Guide
-5. Contact
-6. Credits
+3. Contact
+4. Credits
 
 ## Tools
 
@@ -32,7 +31,7 @@ This app, allows users to log the topics of their concerns, or interests and cre
 **Home Page**
 <center>
 
-| ![Context for the Y](ReadMe_Images/Home.png) |
+| ![Context for the Y](ReadMe_Images/home.png) |
 |:--:|
 | *Figure 1. Home page of the Leaning Log App* |
 
@@ -60,16 +59,34 @@ This app, allows users to log the topics of their concerns, or interests and cre
 
 <center>
 
-|![Context for the Y](ReadMe_Images/enter_topic.png)> |
+| ![Context for the Y](ReadMe_Images/enter_topic2.png)|
 |:--:|
-| ![Context for the Y](ReadMe_Images/enter_topic2.png)
-| *Figure 4. Once the user logs in, he can take a look at his saved topics* |
-| *Figure 5. Once the user logs in, he can take a look at his saved topics* |
-
+| *Figure 4. Enter a topic default page, with a selected topic by the user* |
 
 </center>
 
+**Enter Entries Page**
 
+<center>
+
+| ![Context for the Y](ReadMe_Images/insert_entry2.png)|
+|:--:|
+| *Figure 5. Enter an entry for the selected topic default page, with a selected entry by the user* |
+
+</center>
+
+**Final Views**
+
+<center>
+
+| ![Context for the Y](ReadMe_Images/topic_written.png)|
+|:--:|
+| *Figure 6. Selected topic uploaded* |
+| ![Context for the Y](ReadMe_Images/entry.png)|
+|:--:|
+| *Figure 7. Selected entry uploaded* |
+
+</center>
 
 ## Contact
 
