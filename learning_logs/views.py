@@ -58,6 +58,7 @@ def new_topic(request):
 def new_entry(request, topic_id):
     """Adding a new entry for an specific topic"""
     topic = Topic.objects.get(id=topic_id)
+    print(topic)
 
     if topic.owner != request.user:
         raise Http404
